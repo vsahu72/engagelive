@@ -1,16 +1,33 @@
 PODS:
-  - engagelive (0.1.0)
+  - AASegmentedControl (1.2)
+  - engagelive (0.1.0):
+    - AASegmentedControl
+    - Socket.IO-Client-Swift (~> 13.2.0)
+  - Socket.IO-Client-Swift (13.2.1):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.6)
 
 DEPENDENCIES:
+  - AASegmentedControl
   - engagelive (from `../`)
+  - Socket.IO-Client-Swift (~> 13.2.0)
+
+SPEC REPOS:
+  trunk:
+    - AASegmentedControl
+    - Socket.IO-Client-Swift
+    - Starscream
 
 EXTERNAL SOURCES:
   engagelive:
     :path: "../"
 
 SPEC CHECKSUMS:
-  engagelive: 995a7854dd348764f35533df2e8eace16e03137b
+  AASegmentedControl: a8fa5b4d7669fcead3af55551b4ff1761274c577
+  engagelive: d545c63baa5404142c2dd05b383184f07f324c40
+  Socket.IO-Client-Swift: b94943e2fb916fe2f95244b9ed21828634002280
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
 
-PODFILE CHECKSUM: a501e8814c56c1868da43b3f65689f2d98881321
+PODFILE CHECKSUM: 1e5b21537899dcd888b0279f87cedbde53e85142
 
 COCOAPODS: 1.8.4
