@@ -1,0 +1,16 @@
+PODS:
+  - engagelive (0.1.0)
+
+DEPENDENCIES:
+  - engagelive (from `../`)
+
+EXTERNAL SOURCES:
+  engagelive:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  engagelive: 995a7854dd348764f35533df2e8eace16e03137b
+
+PODFILE CHECKSUM: a501e8814c56c1868da43b3f65689f2d98881321
+
+COCOAPODS: 1.8.4

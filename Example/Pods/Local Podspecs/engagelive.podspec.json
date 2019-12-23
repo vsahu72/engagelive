@@ -1,0 +1,22 @@
+{
+  "name": "engagelive",
+  "version": "0.1.0",
+  "summary": "A short description of engagelive.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vikash sahu/engagelive",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vikash sahu": "vikash.aripra@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/vikash sahu/engagelive.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "engagelive/Classes/**/*"
+}
