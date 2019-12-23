@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'engagelive_Example' do
+  pod 'engagelive', :path => '../'
+
+  target 'engagelive_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
